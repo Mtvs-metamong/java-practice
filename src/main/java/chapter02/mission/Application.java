@@ -1,4 +1,4 @@
-package chpater02.mission;
+package chapter02.mission;
 
 public class Application {
     public static void main(String[] args) {

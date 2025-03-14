@@ -1,6 +1,5 @@
 package chapter02.mission;
 
-import chpater02.mission.Application;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
