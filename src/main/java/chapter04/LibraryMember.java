@@ -7,7 +7,7 @@ public class LibraryMember {
     private final String name;
     private final String membershipId;
 
-    private LibraryMember(
+    LibraryMember(
         String name,
         String membershipId
     ) {
