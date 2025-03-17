@@ -1,8 +1,8 @@
 package chpater03.mission;
 
-import com.ohgiraffers.z_activity.mission.LibraryMember;
-import com.ohgiraffers.z_activity.mission.MemberManager;
-import com.ohgiraffers.z_activity.mission.StudentMember;
+import chapter03.mission.LibraryMember;
+import chapter03.mission.MemberManager;
+import chapter03.mission.StudentMember;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
