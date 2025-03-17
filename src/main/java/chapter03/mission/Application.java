@@ -3,9 +3,12 @@ package chapter03.mission;
 public class Application {
     public static void main(String[] args) {
 
-        Member member = new Member("김가은");
-        member.setMonth(9);
-        String result = member.enroll();
-        System.out.println(result);
+        LibraryMember[] members = new LibraryMember[]{
+                new LibraryMember("Alice", "LM001"),
+                new StudentMember("Bob", "LM002")
+        };
+
+        MemberManager memberManager = new MemberManager(members);
+        System.out.println(memberManager.processMembers());
     }
 }
