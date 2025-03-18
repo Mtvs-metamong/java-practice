@@ -1,8 +1,5 @@
-package chpater03.mission;
+package chapter03.mission;
 
-import chapter03.mission.LibraryMember;
-import chapter03.mission.MemberManager;
-import chapter03.mission.StudentMember;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
