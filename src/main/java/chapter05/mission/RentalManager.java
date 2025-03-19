@@ -1,6 +1,6 @@
 package chapter05.mission;
 
-import com.ohgiraffers.z_activity.lesson.Book;
+import chapter05.lesson.Book;
 
 import java.util.ArrayList;
 import java.util.HashMap;

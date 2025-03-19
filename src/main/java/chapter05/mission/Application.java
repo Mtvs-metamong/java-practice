@@ -1,6 +1,6 @@
 package chapter05.mission;
 
-import com.ohgiraffers.z_activity.lesson.Book;
+import chapter05.lesson.Book;
 
 public class Application {
     public static void main(String[] args) {
