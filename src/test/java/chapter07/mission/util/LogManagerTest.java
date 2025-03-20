@@ -48,7 +48,7 @@ class LogManagerTest {
 
     @DisplayName("파일 삭제 시 정상적으로 파일이 삭제된다.")
     @Test
-    void deleteFileFailure() {
+    void deleteFileSuccess() {
         // 삭제 시 예외 발생하지 않으면 테스트 케이스가 성공한다.
         assertDoesNotThrow(() -> Files.deleteIfExists(filePath));
     }
